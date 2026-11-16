@@ -1,3 +1,4 @@
+    console.log("JavaScript carregado!");
     const mostrar_resposta1 = document.getElementById("botão1");
     const resposta1 = document.getElementById("resposta1");
     const resposta2 = document.getElementById("resposta2");

@@ -1,0 +1,73 @@
+    .paginainteira {
+        min-height: 0;
+        height: auto;
+    }
+    .cidade_titulo {
+        display: flex;
+        justify-content: center;
+    }
+    .bloco_pergunta {
+        padding: 15px 20px;
+        margin: 25px 10px;
+        border-radius: 25px;
+        background-color: rgb(53, 201, 138);
+        width: 100%;
+        box-sizing: border-box;
+        color: rgb(234, 244, 250);
+    }
+    .bloco_pergunta h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .bloco_pergunta p {
+        width: 720px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .bloco_pergunta p:empty {
+        display: none;
+    }
+
+    button {
+        background-color: rgb(22, 43, 70);
+        border-radius: 20px;
+        height: 30px;
+        color: rgb(234, 244, 250);
+    }
+
+    body {
+        background-color: rgb(234, 244, 250);
+        zoom: 1.5;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .creditos {
+        position: absolute;
+        background-color: black;
+        color: rgb(234, 244, 250);
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+}
+
+    .titulo p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo {
+        padding-inline: 30px;
+        border-radius: 30px;
+        position: relative;
+        margin-left: 200px;
+        background-color: rgb(22, 43, 70);
+        color: white;
+        width: 500px;
+    }
+    .titulo hr {
+        width: 270px;
+    }
